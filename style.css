@@ -147,6 +147,12 @@ button span {
     opacity: 1;
 }
 
+@media screen and (min-width: 768px) {
+    .control{
+        margin-top: 90px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hero{
         display: flex;
@@ -193,12 +199,14 @@ button span {
         max-width: 50%;
         margin: 300px auto 0 auto;
     }
+
+    .text-container h1 {
+        font-size: 72px;
+    }
 }
 
 
 @media screen and (max-width: 425px) {
-
-    
     nav {
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -230,10 +238,39 @@ button span {
     }
     
     .text-container {
-        max-width: 70%;
+        max-width: 90%;
         margin: 300px auto 0 auto;
     }
+
+    .lamp {
+        width: 150px;
+    }
+
+    .light{
+        width: 500px;
+        left: 79px;
+    }
+    .text-container h1 {
+        font-size: 69px;
+    }
+
+    .text-container a {
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
 }
+
+@media screen and (max-width: 375px) {
+    .text-container {
+        max-width: 90%;
+    }
+
+    .text-container h1 {
+        font-size: 64px;
+    }
+}
+
+
 
 @media screen and (max-width:320px) {
     .lamp {
@@ -244,8 +281,13 @@ button span {
         width: 500px;
         left: 79px;
     }
+
+    .text-container {
+        max-width: 90%;
+    }
+
     .text-container h1 {
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .text-container a {
