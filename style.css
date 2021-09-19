@@ -149,3 +149,152 @@ button span {
 .on {
     opacity: 1;
 }
+
+@media screen and (min-width: 768px) {
+    .control{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        width: 100%;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    .menu-img {
+        display: none;
+    }
+    
+    .logo {
+        width: 160px;
+        cursor: pointer;
+    }
+    
+    nav ul{
+        flex: 0;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    #btn {
+        z-index: 1000;
+        margin-left: 50px;
+    }
+    
+    .lamp-container {
+        left: 30%;
+        right: 20%;
+    }
+
+    .light {
+            
+        margin-left: -8;
+    }
+    
+    .text-container {
+        max-width: 50%;
+        margin: 300px auto 0 auto;
+    }
+
+    .text-container h1 {
+        font-size: 72px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    nav {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+       
+    }
+    
+    .menu-img {
+        display: block;
+        margin: 0;
+    }
+    
+    .logo {
+        z-index: 2;
+    }
+    
+    nav ul{
+        display: none;
+    }
+
+    #btn {
+        z-index: 3;
+        margin-left: 0;
+    }
+    
+    .lamp-container {
+        width: 175px;
+        left: 30%;
+        right: 20%;
+    }
+    
+    .text-container {
+        max-width: 90%;
+        margin: 300px auto 0 auto;
+    }
+
+    .lamp {
+        width: 150px;
+    }
+
+    .light{
+        width: 500px;
+        left: 79px;
+    }
+    .text-container h1 {
+        font-size: 69px;
+    }
+
+    .text-container a {
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text-container {
+        max-width: 90%;
+    }
+
+    .text-container h1 {
+        font-size: 64px;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .lamp {
+        width: 150px;
+    }
+
+    .light{
+        width: 500px;
+        left: 79px;
+    }
+
+    .text-container {
+        max-width: 90%;
+    }
+
+    .text-container h1 {
+        font-size: 50px;
+    }
+
+    .text-container a {
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+}

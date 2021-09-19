@@ -1,6 +1,7 @@
 # LampadaPag
 Landing page de lampada
 
-Disponivel apenas para tela maiores que 768px
+Disponivel 
+link https://lampadapag.netlify.app/
 
-https://lampadapag.netlify.app/
+![FLyer da web page vueLamp](images_readme/vueLampFlyer.png)
